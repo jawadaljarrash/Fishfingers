@@ -1,0 +1,221 @@
+element {
+    --green-color: #a4a400;
+    --border-green: #73ad21;
+    --gray-color: #F0F0F0;
+}
+
+body {
+    background-image: url(../src/silverware.jpg);
+    width: 1024px;
+    /* max-width: 1024px; */
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+
+.oval {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.first-header {
+    background-color: #F0F0F0;
+    border: solid#73ad21;
+    border-radius: 25px;
+    margin: 3% auto;
+    padding: 1%;
+    width: 80%;
+}
+
+
+
+.container {
+    background-color: #F0F0F0;
+    border: solid#73ad21;
+    border-radius: 35px;
+    margin: 2% auto;
+    padding: 1%;
+    width: 70%;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #a4a400;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1em;
+    color: #a4a400;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.link>a {
+    color: #a4a400;
+    ;
+}
+
+.comments {
+    width: 85%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.comment1,
+.comment2 {
+    background-color: #ffffa8;
+    /* display: inline-block; */
+    margin: 1% auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+.first-sen {
+    text-align: center;
+}
+
+.allAws {
+    background-color: #F0F0F0;
+    border: solid#73ad21;
+    border-radius: 25px;
+    margin: 3% auto;
+    padding: 3%;
+    width: 80%;
+}
+
+.outer-comments {
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.outer-personal {
+    display: flex;
+
+}
+
+.personal-info {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.input {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.plus {
+    width: 5rem;
+    height: auto;
+
+}
+
+ul {
+    list-style-image: url('../src/fish_icon_24.png');
+
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 95%;
+        /* margin: 0 1em 0 1em; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .first-header {
+        border-width: 2px;
+    }
+
+    .container {
+        border-width: 1px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .columns {
+        columns: 2;
+        column-rule-style: solid;
+
+        column-rule-color: #73ad21;
+        column-gap: 12%;
+    }
+
+    body {
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 98%;
+        /* margin: 0 1em 0 1em; */
+        font-family: 'Segoe UI';
+    }
+
+    .comment1,
+    .comment2 {
+        background-color: #ffffa8;
+        /* display: inline-block; */
+        margin: 1% auto;
+        width: 100%;
+        max-width: 75%;
+    }
+
+
+
+    .field-comment {
+        margin: 0 auto;
+
+        /* width: 100%; */
+        max-width: 70%;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .columns {
+        columns: 3;
+        column-rule-style: solid;
+
+        column-rule-color: #73ad21;
+        column-gap: 10%;
+    }
+
+    body {
+
+        background-image: url(../src/silverware.jpg);
+        width: 1024px;
+        /* max-width: 1024px; */
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    }
+
+}
